@@ -9,4 +9,4 @@ const headerOne = document.createElement("h2");
 headerOne.classList.add("headerOne");
 headerOne.textContent = "About Me"
 headerOne.style.color = "blue";
-titleHeader.appendChild(headerOne)
+titleHeader.appendChild(headerOne);
