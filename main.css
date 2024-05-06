@@ -16,9 +16,15 @@
 .menu {
     border: 1px white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: larger;
+    font-size: 50px;
     width: 900px;
     display: flex;
     justify-content: space-between;
 }
 
+.skills {
+    border-color: #5995DA;
+    border-style: solid;
+    border: 10px;
+    padding-left: 50px;
+}
