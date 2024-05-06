@@ -1,6 +1,24 @@
 *{
     background-color: blanchedalmond;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.floosh{text-align: center; 
+
+.menu-container {
     color: black;
+    background-color: #5995DA; 
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
 }
+
+.menu {
+    border: 1px white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
