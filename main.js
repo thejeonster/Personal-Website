@@ -4,6 +4,8 @@ document.body.style.margin = "0px";
 
 const layerOne = document.createElement("div");
 layerOne.style.display = "flex";
+layerOne.style.justifyContent = "center";
+layerOne.style.alignItems = "center";
 layerOne.style.height = "150px";
 layerOne.style.background = "#1D669E";
 document.body.appendChild(layerOne);
@@ -13,6 +15,7 @@ titleBox.classList.add("title");
 titleBox.style.height = "50px";
 titleBox.style.width = "200px"; 
 titleBox.textContent = "Responsive Designs";
+titleBox.style.textAlign = "center";
 layerOne.appendChild(titleBox);
 
 // ----- Second Layer ----- // 
