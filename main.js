@@ -13,7 +13,7 @@ document.body.appendChild(layerOne);
 
 const layerTwo = document.createElement("div"); 
 layerTwo.style.display = "flex"; 
-layerTwo.style.height = "350px";
+layerTwo.style.height = "320px";
 layerTwo.style.background = "#D3E6F5";
 
 document.body.appendChild(layerTwo);
@@ -22,7 +22,16 @@ document.body.appendChild(layerTwo);
 
 const layerThree = document.createElement("div");
 layerThree.style.display = "flex";
-layerThree.style.height = "350px";
+layerThree.style.height = "320px";
 layerThree.style.background = "#F6E6BF";
 
 document.body.appendChild(layerThree);
+
+// ----- Fourth Layer ----- //
+
+const layerFour = document.createElement("div");
+layerFour.style.display = "flex";
+layerFour.style.height = "320px";
+layerFour.style.background = "#5E9FFF";
+
+document.body.appendChild(layerFour);
