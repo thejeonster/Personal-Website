@@ -17,3 +17,12 @@ layerTwo.style.height = "350px";
 layerTwo.style.background = "#D3E6F5";
 
 document.body.appendChild(layerTwo);
+
+// ----- Third Layer ----- // 
+
+const layerThree = document.createElement("div");
+layerThree.style.display = "flex";
+layerThree.style.height = "350px";
+layerThree.style.background = "#F6E6BF";
+
+document.body.appendChild(layerThree);
