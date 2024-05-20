@@ -6,8 +6,14 @@ const layerOne = document.createElement("div");
 layerOne.style.display = "flex";
 layerOne.style.height = "150px";
 layerOne.style.background = "#1D669E";
-
 document.body.appendChild(layerOne);
+
+const titleBox = document.createElement("div"); 
+titleBox.classList.add("title");
+titleBox.style.height = "50px";
+titleBox.style.width = "200px"; 
+titleBox.textContent = "Responsive Designs";
+layerOne.appendChild(titleBox);
 
 // ----- Second Layer ----- // 
 
