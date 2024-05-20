@@ -1,21 +1,11 @@
-const titleHeader = document.querySelector("h1")
-titleHeader.style.textAlign = "center";
-titleHeader.style.color = "black";
-titleHeader.style.fontSize = "40px";
-titleHeader.style.fontFamily = "Georgia, Times New Roman, Times, serif";
 
+// ----- First Layer ----- // 
+document.body.style.margin = "0px";
 
-const btn = document.querySelector("#btn");
-btn.addEventListener("click", () => {
-    alert("This is under construction.");
-});
+const layerOne = document.createElement("div");
+layerOne.style.display = "flex";
+layerOne.style.height = "150px";
+layerOne.style.background = "#1D669E";
 
-const btnOne = document.querySelector("#btn1");
-btn1.addEventListener("click", () => {
-    alert("This is under construction.");
-});
+document.body.appendChild(layerOne);
 
-const btnTwo = document.querySelector("#btn2");
-btn2.addEventListener("click", () => {
-    alert("This is under construction.");
-});
