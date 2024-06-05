@@ -1,4 +1,10 @@
 
 * {
-    background: #616161;
+    background: #FFDBB6;
+}
+
+h1 {
+    color: black;
+    font-family: "Libre Barcode 128 Text";
+    font-size: 75px;
 }
