@@ -1,6 +1,7 @@
 
 * {
-    background: #FFDBB6;
+    background-image: linear-gradient(#FFDBB6, #FFE9D1, #FFEEDE, #FFF8F0, white);
+    background-blend-mode: lighten;
 }
 
 h1 {
