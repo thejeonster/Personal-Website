@@ -1,9 +1,4 @@
 
-const titleHeader = document.createElement("h1");
-titleHeader.classList.add("title");
-titleHeader.textContent = "With Regards";
-document.body.appendChild(titleHeader);
-
 function titleTypingEffect(element, text, i = 0) {
 
     element.textContent += text[i];
@@ -13,5 +8,11 @@ function titleTypingEffect(element, text, i = 0) {
     }
 }
 
-titleHeader.textContent = "";
-titleTypingEffect(titleHeader, "Responsive Designs..."); 
+document.addEventListener("DOMContentLoaded", function() {
+    var titleHeader = document.getElementById("title");
+    titleHeader.textContent = "";
+    titleTypingEffect(titleHeader, "Welcome..."); 
+}
+
+)
+
